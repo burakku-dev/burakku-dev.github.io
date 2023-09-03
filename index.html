@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Verify</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <a name="start"></a>
+        <button>Verify</button>
+        <hr>Text tags
+        <h1>h1</h1>
+        <h2>h2</h2>
+        <h3>h3 <big>h3 big</big> <small>h3 small</small></h3>
+        <h4>h4</h4>
+        <h5>h5</h5>
+        <p>p</p>
+        <b>b</b>
+        <p><b>b+p</b></p>
+        <b><i>i</i></b>
+        <p><strike>strike</strike></p>
+        <p>H<sub>2</sub>O</p>
+        n<sup>2</sup><br>
+        <hr>
+        <abbr title="text example">HTML</abbr>
+        <address>
+            Moscow, Russia
+        </address>
+        <pre>
+            //code example
+            function test(){
+                return 'test';
+            }
+        </pre>
+        <code>let x = o;</code>
+        <hr>
+        <b>Списки</b><br><br>
+        Пронумерованный:
+        <ol start = "0", type="I">
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+        </ol>
+        Непронумерованный список:
+        <ul type="square">  
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>  
+        </ul>
+        <hr>
+        Атрибуты
+        <hr>
+        Гиперссылка<br>
+        <a href="https://google.com" target="_blank">google link</a><br>
+        <a href="another.html" target="_self">another</a><br>
+        <a href="#start">Вверх</a><br>
+        <a href="mailto:test@gmail.com">Написать на почту</a><br>
+        <hr>
+        Изображения<br>
+        <img src="https://cdn.nur.kz/images/1120x630/ed18139868df1fc7.webp?version=1" alt="Аниме" width="512px" height="auto">
+        <br><br><br><br><br>
+        <img src="img/test.jpg" alt="test">
+        <hr>
+        Таблицы
+        <table border="1" width="500px">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                </tr>
+            </thead>
+            #ffffff
+            <tbody align="center">
+                <tr>
+                    <td>John</td>
+                    <td>Dail</td>
+                </tr>
+                <tr>
+                    <td>Maksim</td>
+                    <td>Funski</td>
+                </tr>
+                <tr>
+                    <td>Maksim</td>
+                    <td>Funski</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>last</td>
+                    <td>one</td>
+                </tr>
+            </tfoot>
+        </table>
+        <hr>
+        JS<br>
+        <script src="js/test.js"></script>
+        <hr>
+        <div>блок div 100% ширины</div>
+        111
+        <span>блок span частичный</span>
+        <hr>
+        <form action="" method="post">
+            <label for="name">Введите имя</label>
+            <input type="text"
+             name="name" id="name"
+             placeholder="TemplateName"
+             maxlength="5">
+
+             <label for="name1">Введите имя</label>
+             <input type="text"
+             name="name1" id="name1"
+             placeholder="TemplateName"
+             maxlength="5">
+        </form><br><br>
+
+        <form action="">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="example@mail.com"><br>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="*******"><br>
+
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color"><br>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date"><br>
+        </form><br><br>
+        
+        <form action="">
+            <label for="checkbox">Checkbox</label>
+            <input type="checkbox" name="checkbox" id="checkbox"><br>
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" id="m">
+            <input type="radio" name="gender" id="f">
+            <input type="radio" name="gender" id="a"> <br>
+
+            <label for="">File</label>
+            <input type="file" name="file" id="file"> <br>
+
+            <input type="button" value="button send"> <br>
+
+            <input type="submit" value="button подтвердить">
+            <input type="reset" value="Очистить">
+        </form>
+        
+        <hr>
+        
+        <form action="" method="post">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter" required>wd</textarea>
+            <button type="submit">Готово</button>
+        </form>
+        
+
+        <hr>
+
+        <form action="">
+            <select name="user" id="">
+                <option disabled selected>-----</option>
+                <option value="">Andrey</option>
+                <option value="">Huesos</option>
+                <option value="">Daun</option> 
+                <option value="" >Ratex</option>
+            </select>
+        </form>
+
+        <form action="">
+            <select name="test" multiple>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option> 
+                <option value="">4</option>
+            </select>
+        </form>
+
+        <hr>
+        HTML5 tag
+        <header>Header</header>
+        <main>Основная часть</main>
+        <aside>Боковая часть</aside>
+        <footer>Футер</footer>
+        <br>
+        <progress max="100" value="35">Загружено на 9%</progress>
+        <br>
+        <details> 
+            <summary>
+                Категория
+            </summary>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto quae quia non vitae repellat debitis corporis quas, cumque fugiat error omnis, illum unde animi adipisci eius minus consequatur, praesentium earum.
+        </details>
+
+    </body>
+</html>
